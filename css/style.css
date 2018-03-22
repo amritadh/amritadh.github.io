@@ -1,0 +1,62 @@
+* {box-sizing: border-box}
+
+  input[type=text], input[type=number], input[type=date], input[type=email] {
+  width: 70%;
+  padding: 8px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #F2D7D5;
+}
+
+body{
+  background-image:url("..//backie.png");
+}
+
+form{
+  margin: 10px auto;
+  width: 400px;
+}
+
+
+h1{
+   margin-left:5px;
+   text-align: center;
+   font-family:"courier";
+   font-size: 40px;
+   color: orange;
+  
+}
+
+
+p{
+  text-align: center;
+  font-size: 20px;
+  color:yellow;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #000000;
+}
+
+label{
+  font-size: 21px;
+  color:orange;
+}
+@media screen and (max-width: 300px) {
+       width: 100%;
+}
+
+footer{
+  margin-right: 300px;
+  margin-left:400px;
+}
